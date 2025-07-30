@@ -1,9 +1,6 @@
 @import 'tailwindcss';
 
-html {
-  background-color: #000;
-  color: #fff;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Tiptap Placeholder 样式 */
 .tiptap p.is-empty::before {

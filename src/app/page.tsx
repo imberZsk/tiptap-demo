@@ -1,6 +1,6 @@
 import Tiptap from '@/components/Tiptap'
-import TipTapTheme from '@/components/Tiptap-theme'
-import TipTapTitle from '@/components/Tiptap-tile'
+import { TipTapTheme } from '@/components/Tiptap-theme'
+import TipTapTitle from '@/components/Tiptap-title'
 
 export default function Home() {
   return (

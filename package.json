@@ -9,15 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tiptap/extension-bubble-menu": "^3.0.7",
     "@tiptap/extension-placeholder": "^3.0.7",
     "@tiptap/pm": "^3.0.7",
     "@tiptap/react": "^3.0.7",
     "@tiptap/starter-kit": "^3.0.7",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.11",
+    "lucide-react": "^0.534.0",
     "next": "15.4.4",
+    "next-themes": "^0.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "use-debounce": "^10.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
