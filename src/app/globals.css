@@ -1,7 +1,5 @@
 @import 'tailwindcss';
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 /* Tiptap Placeholder 样式 */
 .tiptap p.is-empty::before {
   color: #adb5bd;
